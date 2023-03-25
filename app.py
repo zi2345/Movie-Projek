@@ -8,7 +8,7 @@ from pymongo import MongoClient
 import requests
 from bs4 import BeautifulSoup
 
-dotenv_path = join(dirname(__file__),'.evn')
+dotenv_path = join(dirname(__file__),'.env')
 load_dotenv(dotenv_path)
 
 MONGODB_URl = os.environ.get("MONGODB_URl")
